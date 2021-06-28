@@ -1,8 +1,8 @@
 <?php
   $hostname = "localhost";
-  $username = "id17087810_gchatapps";
-  $password = "Gmgmgm330033@";
-  $dbname = "id17087810_gchatapp";
+  $username = "#";
+  $password = "#";
+  $dbname = "#";
 
   $conn = mysqli_connect($hostname, $username, $password, $dbname);
   if(!$conn){

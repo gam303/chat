@@ -29,7 +29,6 @@
       <div class="chat-box">
       </div>
       <form action="#" class="typing-area">
-        <div style="display:none;"></div>
         <il style="cursor: pointer;margin-top:11px;">😀</il><input emoji="true" type="text" name="message" class="input-field" placeholder="Type a message here..." autocomplete="off"><input type="text" class="incoming_id" name="incoming_id" value="<?php echo $user_id; ?>" hidden>
         <button><i class="fab fa-telegram-plane"></i></button></input>
       </form>

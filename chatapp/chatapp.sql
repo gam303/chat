@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `id17188575_bchatapp`
+-- Database: `chatapp`
 --
 
 -- --------------------------------------------------------
@@ -33,20 +33,6 @@ CREATE TABLE `messages` (
   `outgoing_msg_id` int(255) NOT NULL,
   `msg` varchar(1000) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
--- --------------------------------------------------------
-
---
--- Table structure for table `images`
---
-
-CREATE TABLE `images` (
- `id` int(11) NOT NULL AUTO_INCREMENT,
- `file_name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
- `uploaded_on` datetime NOT NULL,
- `status` enum('1','0') COLLATE utf8_unicode_ci NOT NULL DEFAULT '1',
- PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 -- --------------------------------------------------------
 

@@ -4,7 +4,6 @@
     $fname = mysqli_real_escape_string($conn, $_POST['fname']);
     $lname = mysqli_real_escape_string($conn, $_POST['lname']);
     $email = mysqli_real_escape_string($conn, $_POST['email']);
-    if (strlen($_POST['pass']) >= 4 && strlen($_POST['pass']) <= 20)
     $password = mysqli_real_escape_string($conn, $_POST['password']);
     if(!empty($fname) && !empty($lname) && !empty($email) && !empty($password)){
         if(filter_var($email, FILTER_VALIDATE_EMAIL)){
